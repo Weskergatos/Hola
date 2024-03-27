@@ -14,7 +14,11 @@ public class JavaApplication20 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Persona p1 = new Persona("Mateo","Baez");
+        p1.setEdad(19);
+        
+        System.out.println("Mi nombre es: "+ p1.getNombre());
+        
     }
     
 }
